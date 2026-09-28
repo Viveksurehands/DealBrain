@@ -1,0 +1,124 @@
+{
+  "accounts": {
+    "acc_acme": {
+      "account_id": "acc_acme",
+      "company_name": "Acme",
+      "industry": null,
+      "arr_estimate": null,
+      "current_stage": "Discovery",
+      "status": "active",
+      "last_activity_date": "2026-09-28",
+      "champion_id": null,
+      "economic_buyer_id": null,
+      "created_at": "2026-09-28T21:41:01.028926",
+      "stakeholders": {
+        "c_action_items": {
+          "contact_id": "c_action_items",
+          "name": "Action items",
+          "role": "Stakeholder",
+          "influence_level": "medium",
+          "current_sentiment": "neutral",
+          "sentiment_history": [
+            {
+              "date": "2026-09-28",
+              "sentiment": "neutral",
+              "notes": null
+            }
+          ]
+        }
+      },
+      "objections": [],
+      "competitors": [
+        {
+          "mention_id": "comp_c435f8a8",
+          "interaction_id": "int_20260928214101_69c70a",
+          "date_mentioned": "2026-09-28",
+          "competitor_name": "Datadog",
+          "context": "John is engaged and asking about our VPC architecture, but Sarah pushed back hard saying: 'Your pricing is 15% above Datadog and setup fee is outside this quarter budget.'",
+          "comparative_angle_used": "Positioned specialized enterprise capability vs Datadog",
+          "threat_level": "medium"
+        },
+        {
+          "mention_id": "comp_f3cb396d",
+          "interaction_id": "int_20260928214204_941da7",
+          "date_mentioned": "2026-09-28",
+          "competitor_name": "Datadog",
+          "context": "John is engaged and asking about our VPC architecture, but Sarah pushed back hard saying: 'Your pricing is 15% above Datadog and setup fee is outside this quarter budget.'",
+          "comparative_angle_used": "Positioned specialized enterprise capability vs Datadog",
+          "threat_level": "medium"
+        }
+      ],
+      "commitments": [
+        {
+          "commitment_id": "comm_8b0c8aa7",
+          "interaction_id": "int_20260928214101_69c70a",
+          "date_created": "2026-09-28",
+          "owner": "rep",
+          "description": "Action items: Rep to send custom ROI model and customer references by Friday; John to share security questionnaire by next Monday.",
+          "due_date": "next Monday",
+          "status": "open"
+        },
+        {
+          "commitment_id": "comm_e9450de8",
+          "interaction_id": "int_20260928214204_941da7",
+          "date_created": "2026-09-28",
+          "owner": "rep",
+          "description": "Action items: Rep to send custom ROI model and customer references by Friday; John to share security questionnaire by next Monday.",
+          "due_date": "next Monday",
+          "status": "open"
+        }
+      ],
+      "interaction_history": [
+        {
+          "interaction_id": "int_20260928214101_69c70a",
+          "account_id": "acc_acme",
+          "interaction_date": "2026-09-28",
+          "interaction_type": "meeting",
+          "summary": "Meeting interaction with Action items. 0 objection(s) logged; 1 action item(s) pending.",
+          "stakeholders_present": [
+            "Action items"
+          ],
+          "objection_ids": [],
+          "competitor_mention_ids": [
+            "comp_c435f8a8"
+          ],
+          "commitment_ids": [
+            "comm_8b0c8aa7"
+          ],
+          "deal_stage_signal": null,
+          "raw_notes_excerpt": "Just got off a call with Acme Corp (John Smith, VP Engineering, and Sarah Chen, CFO). \nJohn is engaged and asking about our VPC architecture, but Sarah pushed back hard saying: 'Your pricing is 15% above Datadog and setup fee is outside this quarter budget.'\nI countered by explaining our end-to-end analytics and proposed phased implementation.\nAction items: Rep to send custom ROI model and customer references by Friday; John to share security questionnaire by next Monday.\nDeal stage moving to Te"
+        },
+        {
+          "interaction_id": "int_20260928214204_941da7",
+          "account_id": "acc_acme",
+          "interaction_date": "2026-09-28",
+          "interaction_type": "meeting",
+          "summary": "Meeting interaction with Action items. 0 objection(s) logged; 1 action item(s) pending.",
+          "stakeholders_present": [
+            "Action items"
+          ],
+          "objection_ids": [],
+          "competitor_mention_ids": [
+            "comp_f3cb396d"
+          ],
+          "commitment_ids": [
+            "comm_e9450de8"
+          ],
+          "deal_stage_signal": null,
+          "raw_notes_excerpt": "Just got off a call with Acme Corp (John Smith, VP Engineering, and Sarah Chen, CFO). \nJohn is engaged and asking about our VPC architecture, but Sarah pushed back hard saying: 'Your pricing is 15% above Datadog and setup fee is outside this quarter budget.'\nI countered by explaining our end-to-end analytics and proposed phased implementation.\nAction items: Rep to send custom ROI model and customer references by Friday; John to share security questionnaire by next Monday.\nDeal stage moving to Te"
+        }
+      ]
+    }
+  },
+  "interactions": [],
+  "patterns": {
+    "pricing_pushback": [],
+    "competitor_mentions": [],
+    "win_loss_trends": []
+  },
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2026-09-28T21:42:04.671811",
+    "total_records": 2
+  }
+}
